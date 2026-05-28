@@ -1,0 +1,54 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1b33"/>
+      <stop offset="100%" stop-color="#162e50"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8effe"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="url(#bg)"/>
+
+  <!-- Top-left orange accent bars -->
+  <rect x="80" y="80" width="130" height="10" rx="5" fill="#ff6b35"/>
+  <rect x="80" y="104" width="70" height="10" rx="5" fill="#ff6b35" opacity="0.45"/>
+
+  <!-- Subtle corner glow top-right -->
+  <circle cx="920" cy="80" r="120" fill="#1e6fff" opacity="0.07"/>
+
+  <!-- Main GTN text -->
+  <text
+    x="500"
+    y="555"
+    text-anchor="middle"
+    font-family="Arial Black, 'Arial Bold', Impact, sans-serif"
+    font-size="290"
+    font-weight="900"
+    fill="url(#textGrad)"
+    letter-spacing="-6">GTN</text>
+
+  <!-- Thin divider line -->
+  <rect x="80" y="608" width="840" height="2" rx="1" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- MEDIA label -->
+  <text
+    x="500"
+    y="712"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="84"
+    font-weight="400"
+    fill="#475569"
+    letter-spacing="30">MEDIA</text>
+
+  <!-- Orange dot accent bottom-right -->
+  <circle cx="920" cy="920" r="40" fill="#ff6b35" opacity="0.5"/>
+  <circle cx="920" cy="920" r="20" fill="#ff6b35"/>
+
+  <!-- Small square accent bottom-left -->
+  <rect x="80" y="900" width="20" height="20" rx="3" fill="#1e6fff" opacity="0.6"/>
+</svg>
